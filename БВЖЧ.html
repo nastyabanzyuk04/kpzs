@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ru" >
+<head>
+<meta charset="UTF-8">
+<title>Сайт с информацией о конституциях мира и их достопримечательностях</title>
+<style type="text/css">
+a{
+color: #fff;
+text-decoration: none;
+}
+html{
+background: #FFF8CC;
+min-height: 100%;
+font-family: Helvetica;
+display: flex;
+flex-direction: column;
+}
+body{
+margin: 0;
+padding: 0 15px;
+display: flex;
+flex-direction: column;
+flex: auto;
+}
+h1{
+margin-top: 0;
+}
+h1, p{
+color: #006064;
+}
+img{
+border: 0;
+}
+.header{
+width: 100%;
+min-width: 460px;
+max-width: 960px;
+margin: 0 auto 30px;
+padding: 30px 0 10px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+box-sizing: border-box;
+}
+.logo{
+font-size: 1.5rem;
+color: #fff;
+text-decoration: none;
+margin: 5px 0 0 5px;
+justify-content: center;
+align-items: center;
+display: flex;
+flex: none;
+align-items: center;
+background: #839FFF;
+width: 130px;
+height: 50px;
+}
+.nav{
+margin: -5px 0 0 -5px;
+display: flex;
+flex-wrap: wrap;
+}
+.nav-item{
+background: #BDC7FF;
+width: 130px;
+height: 50px;
+font-size: 1.5rem;
+color: #fff;
+text-decoration: none;
+display: flex;
+margin: 5px 0 0 5px;
+justify-content: center;
+align-items: center;
+}
+.sqr{
+height: 300px;
+width: 300px;
+background: #FFDB89;
+}
+
+.main{
+width: 100%;
+min-width: 460px;
+max-width: 960px;
+margin: auto;
+flex: auto;
+box-sizing: border-box;
+}
+.box{
+font-size: 1.25rem;
+line-height: 1.5;
+margin: 0 0 40px -50px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.box-base{
+margin-left: 50px;
+flex: 1 0 430px;
+}
+.box-side{
+margin-left: 50px;
+font: none;
+}
+.box-img{
+max-width: 100%;
+height: auto;
+}
+.content{
+margin-bottom: 30px;
+display: flex;
+flex-wrap: wrap;
+}
+.banners{
+flex: 1 1 200px;
+}
+.banner{
+background: #FFDB89;
+width: 100%;
+min-width: 100px;
+min-height: 200px;
+font-size: 3rem;
+color: #fff;
+margin: 0 0 30px 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.posts{
+margin: 0 0 30px 30px;
+flex: 1 1 200px;
+}
+.comments{
+margin: 0 0 30px 30px;
+flex: 2 2 300px;
+}
+.comment{
+display: flex;
+}
+.comment-side{
+padding-right: 20px;
+flex: none;
+}
+.comment-base{
+flex: auto;
+}
+.comment-avatar{
+background: #FFA985;
+width: 50px;
+height: 50px;
+}
+.footer{
+background: #FF3366;
+width: 100%;
+max-width: 960px;
+min-width: 460px;
+color: #fff;
+margin: auto;
+padding: 15px;
+box-sizing: border-box;
+}
+
+@media screen and (max-width: 800px) {
+.banners{
+margin-left: -30px;
+display: flex;
+flex-basis: 100%;
+}
+.banner{
+margin-left: 30px;
+}
+.posts{
+margin-left: 0;
+}
+}
+@media screen and (max-width: 600px) {
+.content{
+display: block;
+}
+.banners{
+margin: 0;
+display: block;
+}
+.banner{
+margin-left: 0;
+}
+.posts{
+margin: 0;
+}
+}
+</style>
+</head>
+<body>
+<header class="header">
+<a class="logo">
+КПЗС
+</a>
+<nav class="nav">
+<a href="#posts" class="nav-item">Страны</a>
+<a href="#footer" class="nav-item">Подвал</a>
+</nav>
+
+</header>
+<main class="main">
+<div class="box">
+<div class="box-base">
+<h1>Конституции мира</h1>
+<p>На нашем сайте вы можете ознакомиться с интересными фактами о конституциях стран мира. В дополнение мы подготовили вариант брошюры с самыми необычными достопримечательностями стран, а также интеллект-карту с информацией о конституции Бразилии. Уверены, что здесь вы найдёте для себя много новой и интересной информации, которая поможет вам при изучении дисциплины: "Конституционное право зарубежных стран". </p>
+</div>
+<div class="box-side">
+<img class="banner" src="rg.png" width="600" height="200" alt="РГУП">
+
+</div>
+</div>
+</div>
+<div class="content">
+<div class="banners">
+<img class="banner" src="https://avatars.mds.yandex.net/i?id=208a40bcc2ce93c89ce117472ff8e6dd8b2943a4-7765566-images-thumbs&n=13" alt="Флаг Венгрии">
+<img class="banner" src="https://avatars.mds.yandex.net/i?id=482e35507079e9e4f19e89b11c4d0be85bafef23-8497450-images-thumbs&n=13"alt="Флаг Германии">
+<img class="banner" src="https://avatars.mds.yandex.net/i?id=046397c2cb1176849451ad92eb140bd8ded5698f-8769045-images-thumbs&n=13"alt="Флаг Саудовской Аравии">
+<img class="banner" src="https://cdn.thecoolist.com/wp-content/uploads/2022/03/A-Small-Country-With-a-Big-History.png"alt="Флаг Сан-Марино">
+<img class="banner" src="https://cdng.apigodata.com/uploads/pics/originals/dc/dcd5b5d44634a2656eb0e563ceacf8e4.png"alt="Флаг Великобритании">
+<img class="banner" src="https://img.ixbt.site/live/images/original/28/07/98/2022/11/05/836b1415cc.png"alt="Флаг Исландии">
+<img class="banner" src="https://static.tildacdn.com/tild6663-6564-4339-a438-336331366365/__2023-09-01__120352.png"alt="Флаг США">
+<img class="banner" src="https://qpotok.ru/images/geografiya2021/flag-ehkvadora.png"alt="Флаг Эквадора">
+<img class="banner" src="https://steamuserimages-a.akamaihd.net/ugc/2005838229404665874/0041C9DCFE0A3C2F1234C26AA7F67F8662FA2C20/?imw=512&amp;imh=287&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=true"alt="Флаг Индии">
+<img class="banner" src="https://static.tildacdn.com/tild3262-3566-4436-b333-653430396662/image.png"alt="Флаг Японии">
+<img class="banner" src="https://i1.wp.com/macdailynews.com/wp-content/uploads/2020/05/200514_france_flag.png?w=1280&ssl=1"alt="Флаг Франции">
+<img class="banner" src="https://avatars.dzeninfra.ru/get-zen_doc/5234524/pub_630615004ca82f00837d75aa_630615f10b55f0471482da36/scale_1200"alt="Флаг Бразилии">
+</div>
+<div class="posts" id="posts">
+<div class="post">
+<br> </br><h1>Венгрия</h1>
+<p> <big big big> В конституции Венгрии впервые было закреплено понятие "семья". В Преамбуле зафиксировано: «важнейшими основами нашего существования является семья и нация, а главными ценностями – верность, вера и любовь».</big big big> </p>
+</div>
+<br> </br>
+<br> </br><br> </br>
+<div class="post">
+<h1>Германия</h1>
+<p> <big big big> Основной закон ФРГ первоначально, во время создания задумывался, как временный закон, распространявшийся на западную часть Германии. Потом положения распространились на Восточную Германию в 1990 году, после объединения немецких земель. </big big big></p>
+</div>
+<div class="post">
+<br> </br><br> </br> <h1>Саудовская Аравия</h1>
+<p><big big big> Саудовская Аравия является страной религиозной правовой семьи, а потому не имеет конституции в ее современном понимании. Роль Конституции Саудовской Аравии de jure выполняют священные книги ислама (Коран и сунна): «конституция — Книга Всевышнего Аллаха и сунна Его Пророка». обод человека.</big big big></p>
+</div>
+<div class="post">
+<br> </br> <h1>Сан-Марино</h1>
+<p> <big big big> Конституция Сан-Марино считается одной из первых в мире текстовых конституций. Ее принимали в 1600 году. Тогда это были документы статуты. Конституция закрепляла принципы международного права, уголовного, гражданского. Были отдельные статьи, которые регламентировали семейное право.</big big big> </p>
+</div>
+<div class="post">
+<br> </br><br> </br><br> </br> <h1>Великобритания</h1>
+<p><big big big> В Великобритании нет единого текста конституции. Однако, при этом права британцев регламентируются другими нормативно-правовыми актами, в том числе древними уставами и различными конституционными соглашениями. В Великобритании - прецедентное право, при рассмотрениях дела в суде юристы смотрят, как решался тот или иной вопрос на судебных заседениях в английской юридической истории.</big big big> </p>
+</div>
+<div class="post">
+<br> </br><br> </br><br> </br><h1>Исландия</h1>
+<p> <big big big> Самой демократично составленной конституцией может похвастаться Исландия. Ее составляли 950 граждан, которых выбрали с помощью лотереи.</big big big></p>
+</div>
+<div class="post">
+<br> </br><br> </br><h1>США</h1>
+<p> <big big big> Первой конституцией в современном смысле является Конституция США. Она была ратифицирована штатом Делавэр 7 декабря 1787 года. В документе установлено разделение властей и компетенция каждой из них. Когда Конституция США вступила в силу, в стране проживало всего 4 млн человек.Основной закон США является самой короткой конституцией. В нем всего 4400 слов</big big big> </p>
+</div>
+<div class="post">
+<br> </br><h1>Эквадор</h1>
+<p><big big big> Конституция Эквадора является высшим законом Эквадора. Действующая Конституция, принятая в 2008 году, является 20-й конституцией страны. Эквадор стал в мире первой
+Посмотреть все изображения
+страной, закрепившей права природы на Конституции. Теперь Конституция Эквадора гарантирует природе право на существование, воспроизводство и восстановление. Эти положения уже стали основой для нескольких судебных дел.</big big big> </p>
+</div>
+<div class="post">
+<br> </br><br> </br><h1>Индия</h1>
+<p><big big big> Конституция Индии была принята в 1950 году, насчитывает 395 статей, 12 приложений и более 500 поправок. Кроме всего прочего, она
+написана столь сложным языком что большинство жителей страны не могут понять ее положения до сих пор. К тому же нормы Конституции разбросаны в тексте столь хаотично, что сразу найти необходимый пункт практически невозможно.</big big big> </p>
+</div>
+<div class="post">
+<br> </br><br> </br><h1>Япония</h1>
+<p><big big big>Конституция Японии говорит об отказе от войны, как средство ведения государственной политики. Конституция была принята в 1947 году, сразу после поражения во Второй Мировой Войне, что и послужило причиной введения такой нормы.</big big big> </p>
+</div>
+<div class="post">
+<br> </br><br> </br><br> </br><h1>Франция</h1>
+<p><big big big> Франция славится тем, что регулярные революции приводили к частой смене основного закона. За все время было принято 15 конституций, несколько находилось в разработке. Нынешняя конституция страны была принята в 1958 году.</big big big></p>
+</div>
+<div class="post">
+<br> </br><br> </br><h1>Бразилия</h1>
+<p><big big big> Текст действующей Конституции Бразилии состоит из почти 42000 слов, что делает ее самым объемным документом в истории страны. В Конституцию страны была включена особая глава «об индейцах», в которой за индейцами признается их социальная организация, обычаи и традиции, языки и верования, также первоначальные права на земли, которые они традиционно занимают.</big big big></p>
+</div>
+</div>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<h1 ALIGN="center"> Брошюра с достопримечательностями</h1>
+</HEAD>
+<IMG src="br.png"  width="1100" height="400" ALT="Брошюра" HSPACE="10" ALIGN="left">
+</div>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<h1 ALIGN="center"> Интеллект-карта о конституции Бразилии</h1>
+</HEAD>
+<IMG src="karta.png"  width="1000" height="500" ALT="Интеллект-карта"HSPACE="10" ALIGN="left">
+</div>
+</div>
+</main>
+<footer class="footer" id="footer">
+Сайт разработан студентками 2 курса группы ЦДЮСПД 1.3-22 Банзюк Анастасией, Ворониной Алиной, Жмыховой Ангелиной и Чернянской Юлией. Более подробную информацию о фактах можно увидеть на разработанном нами плакате.
+</footer>
+</body>
+</html>
